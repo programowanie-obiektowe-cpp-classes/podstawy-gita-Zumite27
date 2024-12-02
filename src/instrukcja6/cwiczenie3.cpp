@@ -5,13 +5,13 @@
 int main() {
     char input[200];
 
-    printf("Podaj ciąg znaków: ");
+    printf("Podaj ciag znakow: ");
     scanf("%199s", input);
 
     std::string str(input);
     std::reverse(str.begin(), str.end());
-    
-    printf("Odwrócony ciąg: %s\n", str.c_str());
+
+    printf("Odwrocony ciag: %s\n", str.c_str());
 
     return 0;
 }

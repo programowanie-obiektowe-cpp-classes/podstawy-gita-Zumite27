@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <vector>
 #include <algorithm> // std::find, std::sort
-#include <cstdlib>   // rand, srand
-#include <ctime>     // time
 
 int main() {
 

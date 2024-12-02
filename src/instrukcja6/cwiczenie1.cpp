@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string>
-#include <algorithm>
+#include <algorithm> // std::adjaccent_find
 
 int main() {
 
     char input[100];
-    printf("Podaj ciąg znaków: ");
+    printf("Podaj ciag znakow: ");
     scanf("%99s", input);
 
     std::string str(input);

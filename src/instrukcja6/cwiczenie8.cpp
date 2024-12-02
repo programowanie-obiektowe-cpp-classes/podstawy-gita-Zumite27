@@ -14,18 +14,15 @@ int main() {
     }
 
     printf("Wektor liczb: ");
-    for (const auto& num : vec) {
-        printf("%.2f ", num);
-    }
+    for (const auto& num : vec) {printf("%.2f ", num);}
     printf("\n");
 
-    bool has_greater_than_09 = std::any_of(vec.begin(), vec.end(), [](double x) {
-        return x > 0.9;
-    });
+    bool has_greater_than_09 = std::any_of(vec.begin(), vec.end(), [](double x) {return x > 0.9;});
 
     if (has_greater_than_09) {
         printf("Wektor zawiera liczbe wieksza niz 0.9.\n");
-    } else {
+    }
+    else {
         printf("Wektor nie zawiera liczby wiekszej niz 0.9.\n");
     }
 
